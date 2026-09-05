@@ -1,0 +1,77 @@
+<main class="main-container">
+    <section class="hero-section">
+        <nav class="topbar" aria-label="Main navigation">
+            <a class="brand" href="/search" aria-label="BusGo home">
+                <span class="brand-mark">B</span>
+                <span>bus<span>go</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="/search">Bus tickets</a>
+                <a href="/booking">My bookings</a>
+                <button class="help-button" type="button">Help</button>
+            </div>
+        </nav>
+
+        <div class="heading-container">
+            <p class="eyebrow">Travel made simple</p>
+            <h1>Find your next <em>journey</em></h1>
+            <p class="hero-copy">Compare routes, choose your seat, and get moving.</p>
+        </div>
+    </section>
+
+    <section class="search-area" aria-labelledby="search-title">
+        <div class="search-heading">
+            <div>
+                <p class="section-kicker">Plan your trip</p>
+                <h2 id="search-title">Where are you going?</h2>
+            </div>
+            <span class="secure-note"><span class="shield-icon">✓</span> Safe &amp; secure booking</span>
+        </div>
+
+        <form class="search-container">
+            <div class="field-group location-field">
+                <label for="from"><span class="field-icon">●</span> From</label>
+                <input type="text" id="from" placeholder="Departure city" autocomplete="address-level2">
+            </div>
+
+            <button class="swap-button" type="button" aria-label="Swap departure and destination">
+                <span>↔</span>
+            </button>
+
+            <div class="field-group location-field">
+                <label for="to"><span class="field-icon">●</span> To</label>
+                <input type="text" id="to" placeholder="Arrival city" autocomplete="address-level2">
+            </div>
+
+            <div class="field-group date-field">
+                <label for="date"><span class="field-icon">▣</span> Travel date</label>
+                <input type="date" id="date">
+            </div>
+
+            <div class="field-group passenger-field">
+                <label for="passengers"><span class="field-icon">♙</span> Passengers</label>
+                <select id="passengers">
+                    <option>1 passenger</option>
+                    <option>2 passengers</option>
+                    <option>3 passengers</option>
+                    <option>4 passengers</option>
+                </select>
+            </div>
+
+            <button class="search-button" type="submit"><span>Search buses</span> <span aria-hidden="true">→</span></button>
+        </form>
+
+        <div class="quick-searches">
+            <span>Popular routes</span>
+            <button type="button">Mumbai → Pune</button>
+            <button type="button">Delhi → Jaipur</button>
+            <button type="button">Bengaluru → Chennai</button>
+        </div>
+    </section>
+
+    <section class="benefits" aria-label="Booking benefits">
+        <article><span class="benefit-icon">⌁</span><div><strong>Thousands of routes</strong><small>Across 2,500+ cities</small></div></article>
+        <article><span class="benefit-icon">◇</span><div><strong>Best value, always</strong><small>Easy comparison of every trip</small></div></article>
+        <article><span class="benefit-icon">✓</span><div><strong>Travel with confidence</strong><small>Trusted operators and support</small></div></article>
+    </section>
+</main>
